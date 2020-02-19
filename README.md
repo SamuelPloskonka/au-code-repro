@@ -19,7 +19,7 @@ If you managed to produce reproducible code, you will not only allow other resea
 There are many more good reasons to share your code and to make sure it is as well documented as possible:
 - You would like to share code with friends, colleagues or collaborators working on a joint project.
 - You're producing work for a journal or funding body that requires open access to all data and code.
-- In 10 years time (or sooner) you might want to look back at your work, but you may have forgotten what you did.
+- In ten years time (or sooner) you look back at your work, but you may have forgotten what you did.
 - ...
 
 ## Getting started with git and GitHub 
