@@ -56,6 +56,8 @@ Create your own repository by copying this one:
 1. On this website click the *green* 'Use this template' button (maybe by opening it in a new window / tab).
 2. Give the repostiory a name and decide whether you would like it to be public or private.
 
+!['Image'](/images/GitHub_top_panel.png)
+
 Clone the content of the repository to your local computer:
 
   1. On the main page of your new repostiory (which will should exactly like this, except for the new repository name), click the 'Clone or Download' button in the top right.
@@ -63,7 +65,9 @@ Clone the content of the repository to your local computer:
   3. Open RStudio.
   4. Create a 'New Project', select 'Version Control' and 'Git', paste the **HTTPS repository url** into the relevant field and specify the local directory where you want the project to be saved. Finish by clicking 'Create Project'.
   5. Enter your GitHub username and password if you're doing this for the first time.
- 
+
+!['Image'](/images/GitHub_clone.png)
+
 Well done! You have created and cloned your first repository using a template. You could have also created an empty one from scratch (try it out later!), but for now having some content in the 'repo' will speed things up.
 
 **Important:** When you clone a repository to your local computer, **git** will automatically track any changes made to files in the local folder.
@@ -78,10 +82,14 @@ This repo - a common short for repository - is populated with a couple of R scri
 
 After saving the file **git** will automatically notice that you have changed the file. You can see that it appeared in the 'Git' pane on the top right of the RStudio default view. If you can't see the pane bring it to focus via 'View' -> 'Show Vcs'. Let's look what happened there:
 
-1. Hilight the file you changed in the RStudio 'Git' pane with a single click.
+1. Highlight the file you changed in the RStudio 'Git' pane with a single click.
 2. Press the 'diff' button in the top-left of the 'Git' pane.
 
+!['Image'](/images/RStudio_git_pane.png)
+
 A new window will open that highlights the changes you have made. Now, for now **git** has only noticed that you have made a change, but the change has not been logged. The file is saved locally on your harddrive, but the **git** is waiting for you to confirm the change. This gives you the opportunity to make further changes to the file if you want to. 
+
+!['Image'](/images/RStudio_review_changes.png)
 
 Once you're satisfied with the change you have made you need to 'commit' the change. Good news: you can commit changes for a single file or multiple files at once. However, you will always have to add a short message to the commit that briefly explains the changes you have made. **Git** will get angry at you if you don't add a message (try it out).
 
