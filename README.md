@@ -23,14 +23,19 @@ There are many more good reasons to share your code and to make sure it is as we
 - ...
 
 ## Getting started with git and GitHub 
+
 There are some excellent tools that can help you to manage, share and document your code. Here we focus on two of them:
 - **git** - a programme that documents and tracks changes in your code for back up and collaboration.
 - **GitHub** - a cloud-like platform that hosts code and data with tools that make collaborative coding easy.
+
+### git and GitHub
 
 The programme **git** has become the de-facto standard for version control in open source software development. Installed on your computer, it tracks all changes to all files in any directory you tell it to. Handy if a change you made the week before is breaking your code and you want to go back, but also if multiple people simultaneous develop code. 
 
 Knowing excactly when and who by a change to the code was made, **git** can merge changes to a file from different developers into one. To facilitate sharing, **git** can sync the changes tracked locally on your computer to a remote repository - a data store on a server. This can be a local server (at your univeristy) or a server on the web.  
 
-The code sharing platform **GitHub** is the most popular platform for hosting git repositories. The free plan only allows you to create public repositories, visible to anoyne on the web, but as a studnet / teacher you can join the [education programme](https://education.github.com/) for free, which gives you access to the otherwise paid for 'Pro' plan with unlimited private repositories. 
+The code sharing platform **GitHub** is the most popular platform for hosting **git** repositories. The free plan only allows you to create public repositories - visible to anoyne on the web. However, as a studnet / teacher you can join the [education programme](https://education.github.com/), which gives you free access to the 'Pro' plan with unlimited private repositories. 
 
-In addition to hosting git repositories, **GitHub** has lot of little extras that make collaborative coding easier, including issue tracking, milestone setting etc. We will not go into these here, but I recommend you to check them out. Recently, (GitLab)[https://about.gitlab.com/], an alternative to **GitHub**, hase been becoming more and more popular. Functionally they're the same, but **GitLab** allows you to make private repositories without signing up to an education programme. Good news: you can simply sing up to **GitLab** using your **GitHub** account.
+In addition to hosting **git** repositories, **GitHub** has lot of little extras that make collaborative coding easier, these inlcude issue tracking, milestone setting etc. We will not go into these here, but I recommend you to check them out!
+
+Recently, [GitLab](https://about.gitlab.com/) - an alternative to **GitHub** - has increased in popularity. Functionally they are the same, but **GitLab** allows you to make private repositories without signing up to an education programme. Good news: you can simply sing up to **GitLab** using your **GitHub** account!
