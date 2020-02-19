@@ -5,7 +5,7 @@ This is repository provides a super fast intorduction to code reproducibility an
 
 ## Content
 1. [What is code reproducibility? Why share your code?](#what-is-code-reproducibility?-why-share-your-code?)
-2. [Getting started with git and GitHub (do it yourself)](#getting-started-with-git-and-github)
+2. [git and GitHub](#git-and-github)
 3. Documenting your code: metadata and in-line comments (#metadata-and-documenting-your-code)
 4. Publishing data and 
 
@@ -22,15 +22,15 @@ There are many more good reasons to share your code and to make sure it is as we
 - In ten years time (or sooner) you look back at your work, but you may have forgotten what you did.
 - ...
 
-## Getting started with git and GitHub 
+## git and GitHub 
 
-There are some excellent tools that can help you to manage, share and document your code. Here we focus on two of them:
+There are some excellent tools that can help you to manage, share and document your code. We focus on two of them:
 - **git** - a programme that documents and tracks changes in your code for back up and collaboration.
 - **GitHub** - a cloud-like platform that hosts code and data with tools that make collaborative coding easy.
 
 ### git
 
-The programme **git** has become the de-facto standard for version control in open source software development. Installed on your computer, it tracks changes to all files in any directory you tell it to. Handy if a change you made the week before is breaking your code and you want to go back, but also if multiple people simultaneous develop code. 
+The programme **git** has become the de-facto standard for version control in open source software development. Installed on your computer, it tracks changes to all files in any directory you tell it to. Handy if a change you made the week before is breaking your code and you want to go back, but also if multiple people simoultaneously develop the code. 
 
 Knowing excactly when and who made a change to the code, **git** can merge changes to a file from different developers into one. To further facilitate sharing, **git** can sync the changes made locally on your computer to a remote repository. This repository can be on a local server (e.g. at your univeristy) or on a server on the web.  
 
