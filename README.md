@@ -1,7 +1,7 @@
 # Code reproducibility and sharing in a nutshell
 Aarhus University, Denmakr. February 2020. Contact: [Jakob Assmann](j.assmann@bios.au.dk) and [jakobjassmann.wordpress.com](jakobjassmann.wordpress.com).
 ___
-This is repository is intended as a super fast intorduction to code reproducibility and sharing. The main aim is to get you started as quickly as possible, by nature, the content is not intended to be a comprehensive discussion of the topic. If you would like to delve-in deeper, I recommend you explore the web and scientific literature.
+This is repository is intended as a super fast intorduction to code reproducibility and sharing. The main aim is to get you started as quickly as possible. By nature, the content is not intended to be a comprehensive discussion of the topic. If you would like to delve-in deeper, I recommend you explore the web and scientific literature.
 
 ## Content
 1. What is code reproducibility? Why share your code?
