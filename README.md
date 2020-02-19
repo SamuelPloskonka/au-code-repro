@@ -118,20 +118,23 @@ Your neighbour will get an email with an invite to collaborate. They will have t
 First, sync a change between computers:
 
 1. With your neighbour / friend, decide on one of you to clone the others repository to their local computer.
-2. Decide on a file to change.
-3. Make a change to the file on one of your computers, save, commit and push the change.
-4. Pull the changes to the other computer.
+2. Decide on one of the R scripts to change.
+3. Make a change to the script on one of your computers, save, commit and push the change.
+4. Pull the changes on the other computer.
 
 Easy right!? Now let's repeat the exercise but this time both of you edit the file at the same time.
 
 1. Make sure you have both pulled the latest changes from the repo.
-2. Both of you make a change to the same file (start by editing different lines first).
+2. Both of you make a change to the same file (start by editing different lines).
 3. Save, commit and push first on one, then on the second computer.
 
-You will get an error message when pushing from the second computer! This is because the repository on **GitHub** now has a more up-to-date version of the file - a merge is required. To carry out the merge do the following:
+You should get an error message when pushing from the second computer. This is because the repository on **GitHub** now has a more up-to-date version of the file - a merge is required. To carry out the merge do the following:
 
 1. Pull on the second computer.
-2. asdfasdf
+2. **Git** will attempt an auto-merge combining both changes made to the file. This should be successful if both of you edited separate lines.
+3. Push on the second computer to update the **GitHub** repository with the merge.
+4. Pull on the first computer to synchronise all changes. 
+
 
 
 
