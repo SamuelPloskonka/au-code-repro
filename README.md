@@ -126,7 +126,9 @@ Easy right!? Now let's repeat the exercise but this time both of you edit the fi
 2. Both of you make a change to the same file (start by editing different lines first).
 3. Save, commit and push first on one, then on the second computer.
 
-You might get an error message when pushing on the second computer.
+You will get an error message when pushing from the second computer! This is because the repository on **GitHub** now has a more up-to-date version of the file - a merge is required. To carry out the merge do the following:
+
+1. Pull on the second computer.
 
 
 
