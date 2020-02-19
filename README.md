@@ -10,11 +10,11 @@ This is repository is intended as a super fast intorduction to code reproducibil
 4. Publishing data and 
 
 ## What is code reproducibility? Why share your code?
-Reproducibility in science is a complex topic and goes to the the core of scientific philosophy. I think [Goodman et al. 2016]() recent(ish) discussion on the subject in *Science Translational Medicine* is an excellent starter, but you will find plenty of other good reading out there.
+Reproducibility in science is a complex topic and goes to the the core of scientific philosophy.[Goodman et al. 2016]() recent(ish) discussion on the subject in *Science Translational Medicine* is an excellent starter, but you will find plenty of other good reading out there.
 
-Simply put, the key idea behing code reproductibility is to ensure that your process of getting from your raw data to your results is as transparent as possible. Ideally, any other interested researcher should be able to conduct your statistical analysis and re-create your figures, tables and model outputs simply by downloading your data and running your code. 
+Simply put, the key idea behing code reproductibility is to ensure that your process of getting from your raw data to your results is as transparent as possible. Ideally, any interested researcher should be able to conduct your statistical analysis and re-create your figures, tables and outputs simply by downloading your data and running your code. 
 
-If you managed to produce reproducible code, you will not only allow other researchers to fully judge the quality of your findings, but you also give the scientific community a chance to develop further on the hard work that you have done.
+If you managed to produce reproducible code, you will not only allow other researchers to fully judge the quality of your findings, but you also give the scientific community a chance to build on the hard work that you have done.
 
 There are many more good reasons to share your code and to make sure it is as well documented as possible:
 - You would like to share code with friends, colleagues or collaborators working on a joint project.
