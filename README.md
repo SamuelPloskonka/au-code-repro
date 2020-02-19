@@ -50,7 +50,7 @@ From here on I'll assume that you're mainly coding for statistical purposes usin
 You will have to complete the following tasks:
 - Task 1: 
 
-### Task 1: Create a repository and clone it to your computer!
+### Task 1: Create a repository and clone it to your computer.
 Create your own repository by copying this one:
 
 1. On this website click the *green* 'Use this template' button (maybe by opening it in a new window / tab).
@@ -68,7 +68,7 @@ Well done! You have created and cloned your first repository using a template. Y
 
 **Important:** When you clone a repository to your local computer, **git** will automatically track any changes made to files in the local folder.
 
-### Task 2: Make some changes!
+### Task 2: Make some changes.
 
 This repo - a common short for repository - is populated with a couple of R scripts in the /scripts folder, a CSV file containing some numbers in the /data folder, and a plot output in the /plots folder. Make a change to one of the R scripts!
 
@@ -93,7 +93,7 @@ Commit your change:
 
 Your changes are now commited (logged) by git.
 
-### Task 3: Sync (push/pull) to GitHub
+### Task 3: Sync (push/pull) to GitHub.
 
 Once you have commited your changes they're logged on your local computer, but the changes have not been synced with your remote repository on **GitHub** yet. To update the remote repostiory we need to 'push' our changes:
 
@@ -102,7 +102,7 @@ Once you have commited your changes they're logged on your local computer, but t
 
 To check that your changes have been pushed you can navigate to the file you changed on GitHub and view it. *GitHub* also has a nice way of visualising the change history of a file. When you have opened the file on **GitHub** you can click 'History' button and you will see all commits that have affected the file. If you click on the commit code you will see the changes made for that commit.
 
-### Task 4: Invite a collaborator to your GitHub repository
+### Task 4: Invite a collaborator to your GitHub repository.
 
 It's time to collaborate! You will need a friend for this. :)
 
@@ -113,7 +113,7 @@ It's time to collaborate! You will need a friend for this. :)
 
 Your neighbour will get an email with an invite to collaborate. They will have to click the link to accept the collaboration.
 
-### Task 5: Simultaneously edit a file!
+### Task 5: Simultaneously edit a file.
 
 First, sync a change between computers:
 
