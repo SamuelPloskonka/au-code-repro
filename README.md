@@ -27,6 +27,6 @@ There are many excellent tools that can help you to manage, share and document y
 - **git** - a programme that documents and tracks changes in your code for back up and collaboration.
 - **GitHub** - a cloud-like platform that hosts code and data with tools that make collaborative coding easy.
 
-**git** has become the de-facto standard programme for version control in open source software development. Installed on your computer, it tracks all changes to all files in any directory you tell it to. This is handy if a change you made a week before is breaking your code and you want to revert back, but it also makes simultaneous code development with many people possible as it knows excactly who made what change and when, allowing the merging of files from different developers into one. 
+The programme **git** has become the de-facto standard for version control in open source software development. Installed on your computer, it tracks all changes to all files in any directory you tell it to. This is handy if a change you made a week before is breaking your code and you want to go back, but it also makes simultaneous code development with many people possible. It knows excactly who made what change and when, allowing it to merge files from different developers into one. 
 
 The code sharing platform **GitHub** is the most popular type of its kind on the web.  
