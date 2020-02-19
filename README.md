@@ -24,8 +24,8 @@ There are many more good reasons to share your code and to make sure it is as we
 
 ## Getting started with git and GitHub 
 There are many excellent tools that can help you to manage, share and document your code. Today we will focus on two of them:
-- **git** - a programme that helps you document and keep track of changes in your code and allow multiple people to work simultaneously on a coding project.
-- **GitHub** - a cloud-like platform that can host code and data with many little extras and gadgets that make collaborative coding easy.
+- **git** - a programme that documents and keep tracks changes in your code.
+- **GitHub** - a cloud-like platform that can host code and data with extras that make collaborative coding easy.
 
 The version control programme **git** has become a de-facto standard in the open source software development. Installed and engaged on your computer, it keeps track of all changes to all files in any directory you tell it to. This is super handy if you realise that a change you made a week before is actually breaking your code and you want to revert back - git will have a continous back up. But it also makes simultatneous code development amongst multiple people possible as it knows excactly who made what change and when, so it can merge files from different developers into one. 
 
