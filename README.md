@@ -1,7 +1,7 @@
 # Code reproducibility and sharing (in a nutshell)
 Aarhus University, Denmark. February 2020. E-mail [Jakob Assmann](j.assmann@bios.au.dk) or visit [jakobjassmann.wordpress.com](jakobjassmann.wordpress.com).
 ___
-This is repository provides a super fast intorduction to code reproducibility and sharing. The main aim is to get you started as quickly as possible. By nature, the content is not intended to be a comprehensive discussion of the topic. If you would like to delve in deeper, I recommend you explore the web and scientific literature.
+This is repository provides a super fast intorduction to code reproducibility and sharing. The main aim is to get you started as quickly as possible. By nature, the content is not intended to be a comprehensive discussion of the topic. If you would like to delve in deeper, check out the web and bountiful scientific literature.
 
 ## Content
 1. [What is code reproducibility? Why share your code?](#what-is-code-reproducibility?-why-share-your-code?)
@@ -43,7 +43,7 @@ Recently, [GitLab](https://about.gitlab.com/) - an alternative to **GitHub** - h
 
 ## Let's get going!
 
-From here on I'll assume that you're an ecologist and that you're mainly coding for statistical purposes using R in R Studio, and that both together with [git](https://git-scm.com/downloads) are fully set up on your computer.
+From here on I'll assume that you're mainly coding for statistical purposes using R in R Studio, and that both as well as [git](https://git-scm.com/downloads) are fully set up on your computer.
 
 ### Task 1: Create a repository and clone it to your computer!
 Create your own repository by copying this one:
@@ -53,7 +53,7 @@ Create your own repository by copying this one:
 
 Clone the content of the repository to your local computer:
 
-  1. On the main page of your new repostiory (which will look exactly like this, except for your new name), click the 'Clone or Download' button in the top right.
+  1. On the main page of your new repostiory (which will should exactly like this, except for the new repository name), click the 'Clone or Download' button in the top right.
   2. Copy the **HTTPS repository url** to the clipboard.
   3. Open RStudio.
   4. Create a 'New Project', select 'Version Control' and 'Git', paste the **HTTPS repository url** into the relevant field and specify the local directory where you want the project to be saved. Finish by clicking 'Create Project'.
@@ -61,6 +61,39 @@ Clone the content of the repository to your local computer:
  
 Well done! You have created and cloned your first repository using a template. You could have also created an empty one from scratch (try it out later!), but for now having some content in the 'repo' will speed things up.
 
+**Important:** When you clone a repository to your local computer, **git** will automatically track any changes made to files in the local folder.
+
 ### Task 2: Make some changes!
+
+This repo - a common short for repository - is populated with a couple of R scripts in the /scripts folder, a CSV file containing some numbers in the /data folder, and a plot output in the /plots folder. Make a change to one of the R scripts!
+
+1. Open one of the two R scripts in RStudio.
+2. Change something! (e.g. add an in-line comment, or change a number).
+3. Save the file.
+
+After saving the file **git** will automatically notice that you have changed the file. You can see that it appeared in the 'Git' pane on the top right of the RStudio default view. If you can't see the pane bring it to focus via 'View' -> 'Show Vcs'. Let's look what happened there:
+
+1. Hilight the file you changed in the RStudio 'Git' pane with a single click.
+2. Press the 'diff' button in the top-left of the 'Git' pane.
+
+A new window will open that highlights the changes you have made. Now, for now **git** has only noticed that you have made a change, but the change has not been logged. The file is saved locally on your harddrive, but the **git** is waiting for you to confirm the change. This gives you the opportunity to make further changes to the file if you want to. 
+
+Once you're satisfied with the change you have made you need to 'commit' the change. Good news: you can commit changes for a single file or multiple files at once. However, you will always have to add a short message to the commit that briefly explains the changes you have made. **Git** will get angry at you if you don't add a message (try it out).
+
+Commit your change: 
+
+1. Click the little checkbox next to the file you have changed.
+2. Add a message in the 'Commit message' box. (keep it short and informative).
+3. Press the 'Commit' button.
+
+Your changes are now commited (logged) by git.
+
+### Sync (push/pull) to GitHub
+
+Once you have commited your changes they're logged on your local computer, but the changes have not been synced with your remote repository on **GitHub** yet. To update the remote repostiory we need to 'push' our changes:
+
+1. Push the changes by pressing the 'Push' button in the 'RStudio: Review Changes' window or in the RStudio 'Git' pane.
+2. Follow the flow and check out the messages. You might have to enter your GitHub account name and password again.
+
 
 
