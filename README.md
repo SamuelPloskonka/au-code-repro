@@ -45,13 +45,13 @@ Recently, [GitLab](https://about.gitlab.com/) - an alternative to **GitHub** - h
 
 From here on I'll assume that you're an ecologist and that you're mainly coding for statistical purposes using R in R Studio, and that both together with [git](https://git-scm.com/downloads) are fully set up on your computer.
 
-### Task 1: Create a repository and clone it to your computer.
-Start by creating your own repository by copying this one:
+### Task 1: Create a repository and clone it to your computer!
+Create your own repository by copying this one:
 
 1. On this website click the *green* 'Use this template' button (maybe by opening it in a new window / tab).
 2. Give the repostiory a name and decide whether you would like it to be public or private.
 
-Next clone the content of the repository to your local computer
+Clone the content of the repository to your local computer:
 
   1. On the main page of your new repostiory (which will look exactly like this, except for your new name), click the 'Clone or Download' button in the top right.
   2. Copy the **HTTPS repository url** to the clipboard.
@@ -59,8 +59,8 @@ Next clone the content of the repository to your local computer
   4. Create a 'New Project', select 'Version Control' and 'Git', paste the **HTTPS repository url** into the relevant field and specify the local directory where you want the project to be saved. Finish by clicking 'Create Project'.
   5. Enter your GitHub username and password if you're doing this for the first time.
  
-Well done! You have now created and cloned your first repository using this one as a template. You could have also created an empty one from scratch (try it out later!), but for now having some content in the 'repo' will speed things up.
+Well done! You have created and cloned your first repository using a template. You could have also created an empty one from scratch (try it out later!), but for now having some content in the 'repo' will speed things up.
 
-### Task 2: Make some changes.
+### Task 2: Make some changes!
 
 
