@@ -28,6 +28,8 @@ There are some excellent tools that can help you to manage, share and document y
 - **git** - a programme that documents and tracks changes in your code for back up and collaboration.
 - **GitHub** - a cloud-like platform that hosts code and data with tools that make collaborative coding easy.
 
+I'll also assume that you're an ecologist and that you're mainly coding for statistical analysis in R using R Studio and that both together with [git](https://git-scm.com/downloads) are set up on your computer.
+
 ### git
 
 The programme **git** has become the de-facto standard for version control in open source software development. Installed on your computer, it tracks changes to all files in any directory you tell it to. Handy if a change you made the week before is breaking your code and you want to go back, but also if multiple people work on the code. 
@@ -39,4 +41,7 @@ The code sharing platform **GitHub** is the most popular platform for hosting **
 
 In addition to hosting **git** repositories, **GitHub** has lot of extras that make collaborative coding easier, these inlcude issue tracking, milestone setting etc. We will not go into these here, but I recommend you to check them out!
 
-Recently, [GitLab](https://about.gitlab.com/) - an alternative to **GitHub** - has increased in popularity. Functionally they are the same, but **GitLab** allows you to make private repositories without signing up to an education programme. Good news: you can simply log on to **GitLab** using your **GitHub** account!
+Recently, [GitLab](https://about.gitlab.com/) - an alternative to **GitHub** - has increased in popularity. Functionally they are the same, but **GitLab** allows you to make private repositories without signing up to an education programme. Good news: you can simply log on to **GitLab** using your **GitHub** account. So pick your choice!
+
+## Let's get going!
+
