@@ -17,7 +17,7 @@ Simply put, the key idea behing code reproductibility is to ensure that your pro
 If you managed to produce reproducible code, you will not only allow other researchers to fully judge the quality of your findings, but you also give the scientific community a chance to develop further on the hard work that you have done.
 
 There are many more good reasons to share your code and to make sure it is as well documented as possible:
-- You would like to share code with friends, colleagues or collaborators for a joint project.
+- You would like to share code with friends, colleagues or collaborators working on a joint project.
 - You're producing work for a journal or funding body that requires open access to all data and code.
 - In 10 years time (or sooner) you might want to look back at your work, but you may have forgotten what you did.
 - ...
