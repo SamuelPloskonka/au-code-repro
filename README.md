@@ -1,5 +1,6 @@
 # Code reproducibility and sharing (in a nutshell)
 Aarhus University, Denmark. February 2020. E-mail [Jakob Assmann](j.assmann@bios.au.dk) or visit [jakobjassmann.wordpress.com](jakobjassmann.wordpress.com).
+# newline
 ___
 This is repository provides a super fast intorduction to code reproducibility and sharing. The main aim is to get you started as quickly as possible. By nature, the content is not intended to be a comprehensive discussion of the topic. If you would like to delve in deeper, I recommend you explore the web and scientific literature.
 # newline
