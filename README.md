@@ -1,5 +1,5 @@
 # Code reproducibility and sharing (in a nutshell)
-Aarhus University, Denmakr. February 2020. E-mail [Jakob Assmann](j.assmann@bios.au.dk) or visit [jakobjassmann.wordpress.com](jakobjassmann.wordpress.com).
+Aarhus University, Denmark. February 2020. E-mail [Jakob Assmann](j.assmann@bios.au.dk) or visit [jakobjassmann.wordpress.com](jakobjassmann.wordpress.com).
 ___
 This is repository provides a super fast intorduction to code reproducibility and sharing. The main aim is to get you started as quickly as possible. By nature, the content is not intended to be a comprehensive discussion of the topic. If you would like to delve in deeper, I recommend you explore the web and scientific literature.
 
@@ -35,7 +35,7 @@ The programme **git** has become the de-facto standard for version control in op
 Knowing excactly when and who made a change to the code, **git** can merge changes to a file from different developers into one. To further facilitate sharing, **git** can sync the changes made locally on your computer to a remote repository. This repository can be on a local server (e.g. at your univeristy) or on a server on the web.  
 
 ### GitHub
-The code sharing platform **GitHub** is the most popular platform for hosting **git** repositories. The free plan only allows you to create public repositories - visible to anoyne on the web. But as a studnet / teacher you can join the [education programme](https://education.github.com/), which gives you free access to the 'Pro' plan with unlimited private repositories. 
+The code sharing platform **GitHub** is the most popular platform for hosting **git** repositories. The free plan only allows you to create private repositories with a maximum of three colaborators. But as a student / teacher you can join the [education programme](https://education.github.com/), which gives you free access to the 'Pro' plan with unlimited private repositories. 
 
 In addition to hosting **git** repositories, **GitHub** has lot of extras that make collaborative coding easier, these inlcude issue tracking, milestone setting etc. We will not go into these here, but I recommend you to check them out!
 
@@ -44,4 +44,16 @@ Recently, [GitLab](https://about.gitlab.com/) - an alternative to **GitHub** - h
 ## Let's get going!
 From here on I'll assume that you're an ecologist and that you're mainly coding for statistical purposes using R in R Studio, and that both together with [git](https://git-scm.com/downloads) are fully set up on your computer.
 ### 1) Create a repository and make some changes.
+Start by creating your own repository by copying this one:
 
+1. On this website click the *green* 'Use this template' button (maybe by opening it in a new window / tab).
+2. Give the repostiory a name and decide whether you would like it to be public or private.
+3. 'Clone' the content of the repository to your local computer
+  1. On the main page of your new repostiory (which will look exactly like this, except for your new name), click the 'Clone or Download' button in the top right.
+  2. Copy the HTTPS url to the clipboard.
+  3. Open RStudio.
+  4. Click 'New Project', then select 'Version Control' and 'Git', paste the HTTPS repository url into the relevant field and specify the local directory where you want the project to be saved. Finish by clicking 'Create Project'.
+  5. Enter your GitHub username and password if you're doing this for the first time.
+ 
+Well done! You have cloned your first repository. You could have also created an empty one from scratch (try it out later), but for now having some content in the 'repo' will speed things up.
+ 
