@@ -1,9 +1,7 @@
 # Code reproducibility and sharing (in a nutshell)
 Aarhus University, Denmark. February 2020. E-mail [Jakob Assmann](j.assmann@bios.au.dk) or visit [jakobjassmann.wordpress.com](jakobjassmann.wordpress.com).
 ___
-This is repository provides a super fast intorduction to code reproducibility and sharing. The main aim is to get you started as quickly as possible. By nature, the content is not intended to be a comprehensive discussion of the topic. If you would like to delve in deeper, check out the web and bountiful scientific literature.
-
-## Added a line
+This is repository provides a super fast intorduction to code reproducibility and sharing using **git** and **GitHub**. The main aim is to get you started as quickly as possible. By nature, the content is not intended to be a comprehensive discussion of the topic. If you would like to delve in deeper, check out the web and plentyful scientific literature.
 
 ## Content
 1. [What is code reproducibility? Why share your code?](#what-is-code-reproducibility?-why-share-your-code?)
@@ -32,7 +30,7 @@ There are some excellent tools that can help you to manage, share and document y
 
 ### git
 
-The programme **git** has become the de-facto standard for version control in open source software development. Installed on your computer, it tracks changes to all files in any directory you tell it to. Handy if a change you made the week before is breaking your code and you want to go back, but also if multiple people work on the code. 
+The programme **git** has become a standard for version control in open source software development. Installed on your computer, it tracks changes to all files in any directory you tell it to. Handy if a change you made the week before is breaking your code and you want to go back, but also if multiple people work on the code. 
 
 Knowing excactly when and who made a change to the code, **git** can merge changes to a file from different developers into one. To further facilitate sharing, **git** can sync the changes made locally on your computer to a remote repository. This repository can be on a local server (e.g. at your univeristy) or on a server on the web.  
 
@@ -45,20 +43,20 @@ Recently, [GitLab](https://about.gitlab.com/) - an alternative to **GitHub** - h
 
 ### git and GitHub for scientific code reproducibility
 
-Combining the **git** and **GitHub** (or alike) brings along great advantages for scientific code reproduciblity. During development you tracked all the changes made to the code, basically documenting it's evolution. It also documents who has contributed to the code. And finally, it's easy to document the code and share it with the public. At the end of a project you will simply have to make a private repository public!
+Combining **git** and **GitHub** (or alike) brings along great advantages for scientific code reproduciblity. First, during development you tracked all the changes made to the code, basically documenting it's evolution. Second, it also documents who has contributed to the code. And finally, it's easy to document the code and share it with the public. At the end of a project you will simply have to make a private repository public!
 
-**GitHub** can also be a good place to store your data upon publication, but see the [**GitHub** and scientific data storage](#github-and-scientific-data-storage) section below.
+**GitHub** can also be a good place to store your raw data upon publication, but see the [**GitHub** and scientific data storage](#github-and-scientific-data-storage) section below.
 
 ## Let's get going with git and GitHub!
 
 From here on I'll assume that you're mainly coding for statistical purposes using R in R Studio, and that both as well as [git](https://git-scm.com/downloads) are fully set up on your computer.
 
 You will have to complete the following tasks:
-- [Task 1: Create a repository and clone it to your computer.](#task-1:-create-a-repository-and-clone-it-to-your-computer.)
-- [Task 2: Make some changes.](#task-2:-make-some-changes.)
-- [Task 3: Sync (push/pull) to GitHub.](#task-3:-sync-(push/pull)-to-github.)
-- [Task 4: Invite a collaborator to your GitHub repository.](task-4:-invite-a-collaborator-to-your-github-repository.)
-- [Task 5: Simultaneously edit a file.](#task-5:-simultaneously-edit-a-file.)
+- [Task 1: Create a repository and clone it to your computer.](###task-1:-create-a-repository-and-clone-it-to-your-computer.)
+- [Task 2: Make some changes.](###task-2:-make-some-changes.)
+- [Task 3: Sync (push/pull) to GitHub.](###task-3:-sync-(push/pull)-to-github.)
+- [Task 4: Invite a collaborator to your GitHub repository.](###task-4:-invite-a-collaborator-to-your-github-repository.)
+- [Task 5: Simultaneously edit a file.](###task-5:-simultaneously-edit-a-file.)
 
 ### Task 1: Create a repository and clone it to your computer.
 Create your own repository by copying this one:
@@ -184,11 +182,11 @@ When making your code / repository public it is important that you include infor
 
 ## GitHub and scientific data storage
 
-In addtion to storing your code, **GitHub** can also store your raw data. In fact, including both your raw data, the code that cleans it and the code that does the analysis in a single repository is a good way of making your data and analysis reproducible. 
+In addtion to storing your code, **GitHub** can also store your raw data. Actually, including both your raw data, the code that cleans it, and the code that does the analysis in a single repository is a good way of making your data and analysis reproducible. 
 
-There is one thing to note though: **GitHub** is not well suited for storing large datasets. In fact **GitHub** will complain if you push any file larger than 50 MB. You can circumvent this limit (try google), but there is a good reason for it. It does not make sense version-controlling large data and such data might be better of placed on a dedicated scientific repository, such as [Dryad](https://datadryad.org) or [Zenodo](https://zenodo.org/).
+There is one thing to note though: **GitHub** is not well suited for storing large datasets. **GitHub** will complain if you push any file larger than 50 MB. You can circumvent this limit (try google), but there is a good reason for not doing so. Large data might be better placed in a dedicated scientific repository, such as [Dryad](https://datadryad.org) or [Zenodo](https://zenodo.org/).
 
-If you store your data in an external server, or if you inlcude data from external sources in your analysis for which you don't hold the rights to the data, it makes sense to document in your repository how the data can be integrated in your analysis. You can either do that by scripts or well written readmes. 
+If you store your data in an external server, or if you include data from external sources in your analysis that is not your own, it is importnat to document in your repository how the data has to be integrated in your analysis. You can either do that by setting up dedicated scripts or creating well written documentation. 
 
 
 
