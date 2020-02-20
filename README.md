@@ -203,11 +203,11 @@ If you store your data in an external server, or if you include data from extern
 
 ## Addtional resources
 
-When stuck, harness the power of google. Like with any other matters related to programming, a well targeted search is likely to return help in seconds. Here are some addtional pointers:
+When stuck: harness the power of google. Like with any matters related to programming a well targeted search is likely to return help in seconds. Here are some addtional pointers:
 
+- Dedicated tutorial for [git with R Studio](https://nceas.github.io/oss-lessons/parallel-computing-in-r/parallel-computing-in-r.html). 
 - Git tutorial on [harnessing git on the command line](https://git-scm.com/docs/gittutorial).
 - [Videos](https://git-scm.com/videos) on version control with git.
-- Dedicated tutorial for [git with R Studio](https://nceas.github.io/oss-lessons/parallel-computing-in-r/parallel-computing-in-r.html). 
 
 ## About this repository
 
