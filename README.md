@@ -56,23 +56,23 @@ From here on I'll assume that you're mainly coding for statistical purposes usin
 You will have to complete the following tasks:
 - [Task 1: Create a repository and clone it to your computer.](#task-1-create-a-repository-and-clone-it-to-your-computer)
 - [Task 2: Make some changes.](#task-2-make-some-changes)
-- [Task 3: Sync (push/pull) to GitHub.](#task-3-sync-push-pull-to-github)
+- [Task 3: Sync (push/pull) to GitHub.](#task-3-sync-pushpull-to-github)
 - [Task 4: Invite a collaborator to your GitHub repository.](#task-4-invite-a-collaborator-to-your-github-repository)
 - [Task 5: Simultaneously edit a file.](#task-5-simultaneously-edit-a-file)
 
 ### Task 1: Create a repository and clone it to your computer.
 Create your own repository by copying this one:
 
+1. On the top of this website click the *green* 'Use this template' button (maybe by opening it in a new window / tab).
+
 !['Image'](/images/GitHub_top_panel.png)
 
-1. On the top of this website click the *green* 'Use this template' button (maybe by opening it in a new window / tab).
 2. Give the repostiory a name and decide whether you would like it to be public or private.
 
 Clone the content of the repository to your local computer using RStudio:
 
-!['Image'](/images/GitHub_clone.png)
-
   1. On the main page of *your new* repostiory, click the 'Clone or Download' button in the top right.
+!['Image'](/images/GitHub_clone.png)
   2. Copy the **HTTPS repository url** to the clipboard.
   3. Open RStudio.
   4. Create a 'New Project', select 'Version Control' and 'Git', paste the **HTTPS repository url** into the relevant field and specify the local directory where you want the project to be saved. Finish by clicking 'Create Project'.
