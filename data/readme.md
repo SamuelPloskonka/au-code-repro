@@ -1,2 +1,2 @@
 ## Data used to generate Figure 1:
-Random data generated with the "/scripts/generate_data.R" script.
+my_data.csv - random data generated with the "/scripts/generate_data.R" script.
