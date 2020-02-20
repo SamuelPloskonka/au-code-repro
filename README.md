@@ -175,7 +175,7 @@ There is one easy route to success with **git** and **GitHub**: **Push and pull 
 
 ## Documenting your code and metadata
 
-Good documentation is key to make your code reproducible and easy to understand to collaborators, friends or anonymous readers. A lot has been written about the topic and there is no single right way of going about it. Like with all things though, the more you engage with it the easier it will become.
+Good documentation is key to make your code reproducible and easy to understand to collaborators, friends or anonymous readers. A lot has been written about the topic and there is no single right way of doing it. Like with all things though, the more you engage with it the easier it will become.
 
 I recommend start by looking at what other people did. How did your collaborators / friends document their code? How did the authors of your favourite paper tackle the problem? What are the standards at the big databases [Dryad](https://datadryad.org), [gbif](https://www.gbif.org/) and alike? What about the [R EML package](https://nceas.github.io/oss-lessons/ecological-metadata/ecological-metadata.html)?
 
