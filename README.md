@@ -171,9 +171,7 @@ To prevent merge conflicts where auto-merging is not able to solve the conflict,
 
 ## Push and pull frequently!
 
-There is one easy rule to success with **git** and **GitHub**:
-
-**Push and pull frequently!**
+There is one easy route to success with **git** and **GitHub**: **Push and pull frequently!**
 
 ## Documenting your code and metadata
 
