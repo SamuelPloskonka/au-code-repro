@@ -63,7 +63,7 @@ You can try to complete the following tasks:
 ### Task 1: Create a repository and clone it to your computer.
 Create your own repository by copying this one:
 
-1. On the top of this website click the *green* 'Use this template' button (maybe by opening it in a new window / tab).
+1. **On the top of this website** click the green 'Use this template' button (maybe by opening it in a new window / tab).
 
 !['Image'](/images/GitHub_top_panel.png)
 
