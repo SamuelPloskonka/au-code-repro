@@ -1,12 +1,12 @@
 # Code reproducibility and sharing (in a nutshell)
 Aarhus University, Denmark. February 2020. E-mail [Jakob Assmann](j.assmann@bios.au.dk) or visit [jakobjassmann.wordpress.com](jakobjassmann.wordpress.com).
 ___
-This is repository provides a super fast introduction to code reproducibility and sharing using **git** and **GitHub**. The main aim is to get you started as quickly as possible. By nature, the content is not intended to be a comprehensive discussion of the topic. If you would like to delve in deeper, check out the web and plentyful scientific literature.
+This is repository provides a super fast introduction to code reproducibility and sharing using git and GitHub. The main aim is to get you started as quickly as possible. By nature, the content is not intended to be a comprehensive discussion of the topic. If you would wish to delve in deeper, check out the web and scientific literature.
 
 ## Content
 1. [What is code reproducibility? Why share your code?](#what-is-code-reproducibility?-why-share-your-code?)
 2. [git and GitHub](#git-and-github)
-3. [Let's get going with git and GitHub!](#lets-get-going-with-git-and-github)
+3. [Getting started with git and GitHub](#getting-started-with-git-and-github)
 4. [Push and pull frequently!](#push-and-pull-frequently)
 5. [Documenting your code and metadata](#documenting-your-code-and-metadata)
 6. [Licensing your code](#Licensing-your-code)
@@ -54,7 +54,7 @@ First, during development you track all the changes made to the code and data, b
 
 **GitHub** can also be a good place to store your raw data upon publication, but see the [**GitHub** and scientific data storage](#github-and-scientific-data-storage) section below.
 
-## Let's get going with git and GitHub!
+## Getting started with git and GitHub!
 
 From here on I'll assume that you're mainly coding for statistical purposes using R and R Studio, and that both as well as [git](https://git-scm.com/downloads) are fully set up on your computer.
 
@@ -201,6 +201,14 @@ In addtion to storing your code, **GitHub** can also store your raw data. Actual
 There is one thing to note though: **GitHub** is not well suited for storing large datasets. **GitHub** will complain if you push any file larger than 50 MB. You can circumvent this limit (try google), but there is a good reason for not doing so. Large data might be better placed in a dedicated scientific repository, such as [Dryad](https://datadryad.org) or [Zenodo](https://zenodo.org/).
 
 If you store your data in an external server, or if you include data from external sources in your analysis that is not your own, it is importnat to document in your repository how the data has to be integrated in your analysis. You can either do that by setting up dedicated scripts or creating well written documentation. 
+
+## Addtional resources
+
+When stuck, harness the power of google. Like with any other matters related to programming, a well targeted search is likely to return help in seconds. Here are some addtional pointers:
+
+- Git tutorial on [harnessing git on the command line.](https://git-scm.com/docs/gittutorial).
+- [Videos](https://git-scm.com/videos) on version control with git.
+- Dedicated tutorial for [git with R Studio](https://nceas.github.io/oss-lessons/parallel-computing-in-r/parallel-computing-in-r.html). 
 
 ## About this repository
 
