@@ -43,7 +43,9 @@ Recently, [GitLab](https://about.gitlab.com/) - an alternative to **GitHub** - h
 
 ### git and GitHub for scientific code reproducibility
 
-Combining **git** and **GitHub** (or alike) brings along great advantages for scientific code reproduciblity. First, during development you tracked all the changes made to the code, basically documenting it's evolution. Second, it also documents who has contributed to the code. And finally, it's easy to document the code and share it with the public. At the end of a project you will simply have to make a private repository public!
+Combining **git** and **GitHub** (or alike) brings along great advantages for scientific code reproduciblity. 
+
+First, during development you track all the changes made to the code, basically documenting it's evolution. Second, you also document who has contributed to the code. And finally, it's easy to document the code and share it with the public. At the end of a project you will simply have to make a private repository public!
 
 **GitHub** can also be a good place to store your raw data upon publication, but see the [**GitHub** and scientific data storage](#github-and-scientific-data-storage) section below.
 
@@ -52,11 +54,11 @@ Combining **git** and **GitHub** (or alike) brings along great advantages for sc
 From here on I'll assume that you're mainly coding for statistical purposes using R in R Studio, and that both as well as [git](https://git-scm.com/downloads) are fully set up on your computer.
 
 You will have to complete the following tasks:
-- [Task 1: Create a repository and clone it to your computer.](###task-1:-create-a-repository-and-clone-it-to-your-computer.)
-- [Task 2: Make some changes.](###task-2:-make-some-changes.)
-- [Task 3: Sync (push/pull) to GitHub.](###task-3:-sync-(push/pull)-to-github.)
-- [Task 4: Invite a collaborator to your GitHub repository.](###task-4:-invite-a-collaborator-to-your-github-repository.)
-- [Task 5: Simultaneously edit a file.](###task-5:-simultaneously-edit-a-file.)
+- [Task 1: Create a repository and clone it to your computer.](#task-1-create-a-repository-and-clone-it-to-your-computer)
+- [Task 2: Make some changes.](#task-2-make-some-changes)
+- [Task 3: Sync (push/pull) to GitHub.](#task-3-sync-push-pull-to-github)
+- [Task 4: Invite a collaborator to your GitHub repository.](#task-4-invite-a-collaborator-to-your-github-repository)
+- [Task 5: Simultaneously edit a file.](#task-5-simultaneously-edit-a-file)
 
 ### Task 1: Create a repository and clone it to your computer.
 Create your own repository by copying this one:
