@@ -191,9 +191,9 @@ A few personal tips:
 
 ## Licensing your code
 
-When making your code / repository public it is important that you include information on how, or how not, you would like people to use your code. With many funding agencies these days you're reuquired to put your outputs into the public domain. If that sounds confusing to you, check out the [Creative Commons Website](https://creativecommons.org/share-your-work/), consult google and speak to your friends or colleagues.
+When making your code / repository public it is important that you include information on how, or how not, you would like people to use your code. With many funding agencies these days you're reuquired to put your outputs into the public domain. If that sounds confusing to you, check out the [Creative Commons Website](https://creativecommons.org/share-your-work/), search on google and speak to your friends or colleagues.
 
-**Git Hub** offers to add a license files of any possible type when creating your new repository. It can be a good idea to do so. I also like stating it in a general readme file.
+**Git Hub** offers to add a license files of any possible type when creating your new repository. It can be a good idea to do so, but I also like stating the license in the main readme file.
 
 ## GitHub and scientific data storage
 
@@ -207,7 +207,7 @@ If you store your data in an external server, or if you include data from extern
 
 When stuck, harness the power of google. Like with any other matters related to programming, a well targeted search is likely to return help in seconds. Here are some addtional pointers:
 
-- Git tutorial on [harnessing git on the command line.](https://git-scm.com/docs/gittutorial).
+- Git tutorial on [harnessing git on the command line](https://git-scm.com/docs/gittutorial).
 - [Videos](https://git-scm.com/videos) on version control with git.
 - Dedicated tutorial for [git with R Studio](https://nceas.github.io/oss-lessons/parallel-computing-in-r/parallel-computing-in-r.html). 
 
