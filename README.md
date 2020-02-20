@@ -218,6 +218,7 @@ Repository structure:
 /data         Some semi-random data
 /images       Image files used in this readme.md file.
 /plots        Plot output from the R scripts in /scripts.
+/slides       The slides used during the intro.
 /scripts      Example R scripts.
 readme.md     This file.
 .gitignore    File telling git to ignore certain files (such as RStudio project files).
