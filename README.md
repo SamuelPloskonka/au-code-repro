@@ -215,12 +215,12 @@ The content in this repository was developed for a lab meeting of Signe Normand'
 
 Repository structure:
 ```
-/data         Some semi-random data
-/images       Image files used in this readme.md file.
-/plots        Plot output from the R scripts in /scripts.
-/scripts      Example R scripts.
-readme.md     This file.
-.gitignore    File telling git to ignore certain files (such as RStudio project files).
+/data/         Some semi-random data
+/images/       Image files used in this readme.md file.
+/plots/        Plot output from the R scripts in /scripts.
+/scripts/      Example R scripts.
+/readme.md     This file.
+/.gitignore    File telling git to ignore certain files (such as RStudio project files).
 ```
 
 ## License
