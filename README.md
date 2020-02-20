@@ -1,7 +1,7 @@
 # Code reproducibility and sharing (in a nutshell)
-Aarhus University, Denmark. February 2020. E-mail [Jakob Assmann](j.assmann@bios.au.dk) or visit [jakobjassmann.wordpress.com](jakobjassmann.wordpress.com).
+Aarhus University, Denmark. February 2020. Jakob Assmann. [j.assmann@bios.au.dk](j.assmann@bios.au.dk).
 ___
-This is repository provides a super fast introduction to code reproducibility and sharing using git and GitHub. The main aim is to get you started as quickly as possible. By nature, the content is not intended to be a comprehensive discussion of the topic. If you would wish to delve in deeper, check out the web and scientific literature.
+This repository provides a very brief introduction to code reproducibility and sharing using git and GitHub. The main aim is to get you started as quickly as possible. By nature, the content is not intended to be a comprehensive discussion of the topic. If you would wish to delve in deeper, check out the web and scientific literature.
 
 ## Content
 1. [What is code reproducibility? Why share your code?](#what-is-code-reproducibility?-why-share-your-code?)
@@ -11,8 +11,9 @@ This is repository provides a super fast introduction to code reproducibility an
 5. [Documenting your code and metadata](#documenting-your-code-and-metadata)
 6. [Licensing your code](#Licensing-your-code)
 7. [GitHub and scientific data storage](#github-and-scientific-data-storage)
-8. [Abouth this repository](#about-this-repository)
-9. [License](#license)
+8. [Addtional resources](#addtional-resources)
+9. [Abouth this repository](#about-this-repository)
+10. [License](#license)
 
 ## What is code reproducibility? Why share your code?
 Reproducibility in science is a complex issue and goes to the the core of scientific philosophy. [Goodman et al. 2016](https://doi.org/10.1126/scitranslmed.aaf5027) recent(ish) discussion on the subject in *Science Translational Medicine* is an excellent starter, but you will find plenty of other good reading out there.
