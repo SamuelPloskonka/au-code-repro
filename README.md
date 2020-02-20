@@ -183,9 +183,9 @@ You will soon come up with something that works well for sharing your data and c
 
 A few personal tips:
 - Make sure your repository always contains a text or readme file with at least: **Author name(s), Affiliations, Contact Details, Date, A brief summary of content, Associated publications, License information**.
-- Short and informative **in-line comments** are key to easily readable code. MiT staff [suggests](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/lectures/MIT6_189IAP11_comment.pdf) at least one in-line comment every 1-4 lines.
+- Short and informative **in-line comments are key to easily readable code**. MiT staff [suggests](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/lectures/MIT6_189IAP11_comment.pdf) at least one in-line comment every 1-4 lines.
 - Check out [**GitHub**'s markdown](https://guides.github.com/features/mastering-markdown/) you can use it to rapidly create professional looking readme files for **GitHub** repositories. 
-- Have a look at the code and readme files in this repository, I tried to keep everythin as clearly and well documented as possible. It might be a source for inspiration.
+- Have a look at the code and readme files in this repository, I tried to keep everything as clearly and well documented as possible.
 
 ## Licensing your code
 
