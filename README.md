@@ -6,11 +6,14 @@ This is repository provides a super fast introduction to code reproducibility an
 ## Content
 1. [What is code reproducibility? Why share your code?](#what-is-code-reproducibility?-why-share-your-code?)
 2. [git and GitHub](#git-and-github)
-3. Documenting your code: metadata and in-line comments (#metadata-and-documenting-your-code)
-4. Publishing data and 
+3. [Let's get going with git and GitHub!](#lets-get-going-with-git-and-github)
+4. [Push and pull frequently!](#push-and-pull-frequently)
+5. [Documenting your code and metadata](#documenting-your-code-and-metadata)
+6. [Licensing your code](#Licensing-your-code)
+7. [GitHub and scientific data storage](#github-and-scientific-data-storage)
 
 ## What is code reproducibility? Why share your code?
-Reproducibility in science is a complex issue and goes to the the core of scientific philosophy.[Goodman et al. 2016](https://doi.org/10.1126/scitranslmed.aaf5027) recent(ish) discussion on the subject in *Science Translational Medicine* is an excellent starter, but you will find plenty of other good reading out there.
+Reproducibility in science is a complex issue and goes to the the core of scientific philosophy. [Goodman et al. 2016](https://doi.org/10.1126/scitranslmed.aaf5027) recent(ish) discussion on the subject in *Science Translational Medicine* is an excellent starter, but you will find plenty of other good reading out there.
 
 Simply put, the key idea behind code reproductibility is to ensure that your process of getting from your raw data to your results is as transparent as possible. Ideally, any interested researcher should be able to conduct your statistical analysis and re-create your figures, tables and outputs simply by downloading your data and running your code. 
 
@@ -178,16 +181,16 @@ I recommend start by looking at what other people did. How did your collaborator
 You will soon come up with something that works well for sharing your data and code. And if you're unsure, ask for feedback!
 
 A few personal tips:
-- Make sure your repository always contains a text or readme file with at least: **Author Name(s), Affiliations, Contact Details, Date, A Brief Summary of Content, Associated Publications, License Information**.
+- Make sure your repository always contains a text or readme file with at least: **Author name(s), Affiliations, Contact Details, Date, A brief summary of content, Associated publications, License information**.
 - Short and informative **in-line comments** are key to easily readable code. MiT staff [suggests](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/lectures/MIT6_189IAP11_comment.pdf) at least one in-line comment every 1-4 lines.
 - Check out [**GitHub**'s markdown](https://guides.github.com/features/mastering-markdown/) you can use it to rapidly create professional looking readme files for **GitHub** repositories. 
 - Have a look at the code and readme files in this repository, I tried to keep everythin as clearly and well documented as possible. It might be a source for inspiration.
 
-## License
+## Licensing your code
 
-When making your code / repository public it is important that you include information on how you or how not you would like people to use your code. With many funding agencies these days you're reuquired to put your outputs into the public domain, so you would have to choose an appropiate license for it. If that sounds all confusing to you, check out the [Creative Commons Website](https://creativecommons.org/share-your-work/) and speak to your friends and colleagues.
+When making your code / repository public it is important that you include information on how, or how not, you would like people to use your code. With many funding agencies these days you're reuquired to put your outputs into the public domain. If that sounds confusing to you, check out the [Creative Commons Website](https://creativecommons.org/share-your-work/), consult google and speak to your friends or colleagues.
 
-**Git Hub** allows you to choose you from many license types when creating your new repository. 
+**Git Hub** offers to add a license files of any possible type when creating your new repository. It can be a good idea to do so. I also like stating it in a general readme file.
 
 ## GitHub and scientific data storage
 
@@ -197,6 +200,10 @@ There is one thing to note though: **GitHub** is not well suited for storing lar
 
 If you store your data in an external server, or if you include data from external sources in your analysis that is not your own, it is importnat to document in your repository how the data has to be integrated in your analysis. You can either do that by setting up dedicated scripts or creating well written documentation. 
 
+## About this repository
 
+The content in this repository was originally developed for a lab meeting of Signe Normand's VegDyn research group at AU and the AU Department for Biochange's Research Seminar for Masters students.
 
+## License
 
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
