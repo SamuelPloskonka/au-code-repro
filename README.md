@@ -221,7 +221,7 @@ Repository structure:
 /scripts      Example R scripts.
 readme.md     This file.
 .gitignore    File telling git to ignore certain files (such as RStudio project files).
-´´´
+```
 
 ## License
 
