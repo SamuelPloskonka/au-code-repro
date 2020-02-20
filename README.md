@@ -213,6 +213,16 @@ When stuck, harness the power of google. Like with any other matters related to 
 
 The content in this repository was developed for a lab meeting of Signe Normand's [VegDyn research group](https://twitter.com/VegDyn) at AU and the AU [Institute for Biochange's Research](https://bios.au.dk/om-instituttet/organisation/oekoinformatik-biodiversitet/projects/biochange/) weekly seminar for masters students.
 
+Repository structure:
+```
+/data         Some semi-random data
+/images       Image files used in this readme.md file.
+/plots        Plot output from the R scripts in /scripts.
+/scripts      Example R scripts.
+readme.md     This file.
+.gitignore    File telling git to ignore certain files (such as RStudio project files).
+´´´
+
 ## License
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
