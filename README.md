@@ -16,7 +16,7 @@ This repository provides a very brief introduction to code reproducibility and s
 10. [License](#license)
 
 ## What is code reproducibility? Why share your code?
-Reproducibility in science is a complex issue and goes to the the core of scientific philosophy. [Goodman et al. 2016](https://doi.org/10.1126/scitranslmed.aaf5027) recent(ish) discussion on the subject in *Science Translational Medicine* is an excellent starter, but you will find plenty of other good reading out there.
+Reproducibility in science is a complex issue and goes right to the the core of scientific philosophy. [Goodman et al. 2016](https://doi.org/10.1126/scitranslmed.aaf5027) recent(ish) discussion on the subject in *Science Translational Medicine* is an excellent starter, but you will find plenty of other good reading out there.
 
 Simply put, the key idea behind code reproductibility is to ensure that your process of getting from your raw data to your results is as transparent as possible. Ideally, any interested researcher should be able to conduct your statistical analysis and re-create your figures, tables and outputs simply by downloading your data and running your code. 
 
