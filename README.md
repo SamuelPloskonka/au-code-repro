@@ -211,7 +211,7 @@ When stuck: harness the power of google. Like with any matters related to progra
 
 ## About this repository
 
-The content in this repository was developed for a lab meeting of Signe Normand's [VegDyn research group](https://twitter.com/VegDyn) at AU and the AU [Institute for Biochange's Research](https://bios.au.dk/om-instituttet/organisation/oekoinformatik-biodiversitet/projects/biochange/) weekly seminar for masters students.
+The content in this repository was developed for a lab meeting of Signe Normand's [VegDyn research group](https://twitter.com/VegDyn) at AU and the AU [Institute for Biochange's](https://bios.au.dk/om-instituttet/organisation/oekoinformatik-biodiversitet/projects/biochange/) weekly seminar for masters students.
 
 Repository structure:
 ```
