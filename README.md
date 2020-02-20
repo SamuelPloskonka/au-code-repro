@@ -41,32 +41,42 @@ The code sharing platform **GitHub** is the most popular platform for hosting **
 
 In addition to hosting **git** repositories, **GitHub** has lot of extras that make collaborative coding easier, these inlcude issue tracking, milestone setting etc. We will not go into these here, but I recommend you to check them out!
 
-Recently, [GitLab](https://about.gitlab.com/) - an alternative to **GitHub** - has increased in popularity. Functionally they are the same, but **GitLab** allows you to make private repositories without signing up to an education programme. Good news: you can simply log on to **GitLab** using your **GitHub** account. So pick your choice!
+Recently, [GitLab](https://about.gitlab.com/) - an alternative to **GitHub** - has increased in popularity. Functionally they are the same, but **GitLab** allows you to make unlimited private repositories without signing up to an education programme. Good news: you can simply log on to **GitLab** using your **GitHub** account. So pick your choice!
+
+### git and GitHub for scientific code reproducibility
+
+Combining the **git** and **GitHub** (or alike) brings along great advantages for scientific code reproduciblity. During development you tracked all the changes made to the code, basically documenting it's evolution. It also documents who has contributed to the code. And finally, it's easy to document the code and share it with the public. At the end of a project you will simply have to make a private repository public!
+
+**GitHub** can also be a good place to store your data upon publication, but see the [**GitHub** and scientific data storage](#github-and-scientific-data-storage) section below.
 
 ## Let's get going with git and GitHub!
 
 From here on I'll assume that you're mainly coding for statistical purposes using R in R Studio, and that both as well as [git](https://git-scm.com/downloads) are fully set up on your computer.
 
 You will have to complete the following tasks:
-- Task 1: 
+- [Task 1: Create a repository and clone it to your computer.](#task-1:-create-a-repository-and-clone-it-to-your-computer.)
+- [Task 2: Make some changes.](#task-2:-make-some-changes.)
+- [Task 3: Sync (push/pull) to GitHub.](#task-3:-sync-(push/pull)-to-github.)
+- [Task 4: Invite a collaborator to your GitHub repository.](task-4:-invite-a-collaborator-to-your-github-repository.)
+- [Task 5: Simultaneously edit a file.](#task-5:-simultaneously-edit-a-file.)
 
 ### Task 1: Create a repository and clone it to your computer.
 Create your own repository by copying this one:
 
-1. On this website click the *green* 'Use this template' button (maybe by opening it in a new window / tab).
-2. Give the repostiory a name and decide whether you would like it to be public or private.
-
 !['Image'](/images/GitHub_top_panel.png)
 
-Clone the content of the repository to your local computer:
+1. On the top of this website click the *green* 'Use this template' button (maybe by opening it in a new window / tab).
+2. Give the repostiory a name and decide whether you would like it to be public or private.
 
-  1. On the main page of your new repostiory (which will should exactly like this, except for the new repository name), click the 'Clone or Download' button in the top right.
+Clone the content of the repository to your local computer using RStudio:
+
+!['Image'](/images/GitHub_clone.png)
+
+  1. On the main page of *your new* repostiory, click the 'Clone or Download' button in the top right.
   2. Copy the **HTTPS repository url** to the clipboard.
   3. Open RStudio.
   4. Create a 'New Project', select 'Version Control' and 'Git', paste the **HTTPS repository url** into the relevant field and specify the local directory where you want the project to be saved. Finish by clicking 'Create Project'.
   5. Enter your GitHub username and password if you're doing this for the first time.
-
-!['Image'](/images/GitHub_clone.png)
 
 Well done! You have created and cloned your first repository using a template. You could have also created an empty one from scratch (try it out later!), but for now having some content in the 'repo' will speed things up.
 
@@ -130,20 +140,55 @@ First, sync a change between computers:
 3. Make a change to the script on one of your computers, save, commit and push the change.
 4. Pull the changes on the other computer.
 
-Easy right!? Now let's repeat the exercise but this time both of you edit the file at the same time.
+Easy, right!? Now let's repeat the exercise but this time both of you edit the file at the same time.
 
 1. Make sure you have both pulled the latest changes from the repo.
 2. Both of you make a change to the same file (start by editing different lines).
 3. Save, commit and push first on one, then on the second computer.
 
-You should get an error message when pushing from the second computer. This is because the repository on **GitHub** now has a more up-to-date version of the file - a merge is required. To carry out the merge do the following:
+You should get an error message when pushing from the second computer. This is because the repository on **GitHub** now has a more up-to-date version of the file, a merge is required. To carry out the merge do the following:
 
 1. Pull on the second computer.
-2. **Git** will attempt an auto-merge combining both changes made to the file. This should be successful if both of you edited separate lines.
+2. **Git** will then auto-merge by combining both changes made to the file. 
 3. Push on the second computer to update the **GitHub** repository with the merge.
-4. Pull on the first computer to synchronise all changes. 
+4. Pull on the first computer to synchronise the merged changes. 
 
+Sweet, isn't it? No complicated juggling of different versions of files needed on your end, and if you're working with someone on the other end of the globe, you can just call them, and push and pull to share the code.
 
+If you feel brave: repeat the above exercise, but this time both of you edit the same line and see what happens!
+
+To prevent merge conflicts where auto-merging is not able to solve the conflict, it's good to communicate if you and a friend are working on the same lines in file. Hopefully, the chances for that are pretty low. Espcially if you push and pull frequently!
+
+## Push and pull frequently!
+
+There is one easy rule to follow when using version control and sharing code with **GitHub**:
+
+> Push and pull frequently!
+
+## Documenting your code and metadata
+
+Good documentation is key to make your code reproducible and easily understandable to collaborators, friends or anonymous readers. A lot has been written about the topic and there is no single right way of going about it. Like with all things though, the more you engage with it the easier it will become.
+
+I recommend by start looking at what other people did. How did your collaborators / friends document their code? How did the authors of your recent favourite paper tackle the problem? What are the standards at the big databases Dryad, gbif and alike? You will soon come up with something that works well for sharing your data and code. And if you're unsure, ask for feedback!
+
+A couple of personal tips:
+- Short and informative **in-line comments** are key to easily readable code. MiT staff [suggests](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/lectures/MIT6_189IAP11_comment.pdf) at least one in-line comment every 1-4 lines.
+- Check out [**GitHub**'s markdown](https://guides.github.com/features/mastering-markdown/) you can use it to rapidly create professional looking readme files for **GitHub** repositories.
+- Have a look at the code and readme files in this repository, I tried to keep everythin as clearly and well documented as possible.
+
+## License
+
+When making your code / repository public it is important that you include information on how you or how not you would like people to use your code. With many funding agencies these days you're reuquired to put your outputs into the public domain, so you would have to choose an appropiate license for it. If that sounds all confusing to you, check out the [Creative Commons Website](https://creativecommons.org/share-your-work/) and speak to your friends and colleagues.
+
+**Git Hub** allows you to choose you from many license types when creating your new repository. 
+
+## GitHub and scientific data storage
+
+In addtion to storing your code, **GitHub** can also store your raw data. In fact, including both your raw data, the code that cleans it and the code that does the analysis in a single repository is a good way of making your data and analysis reproducible. 
+
+There is one thing to note though: **GitHub** is not well suited for storing large datasets. In fact **GitHub** will complain if you push any file larger than 50 MB. You can circumvent this limit (try google), but there is a good reason for it. It does not make sense version-controlling large data and such data might be better of placed on a dedicated scientific repository, such as [Dryad](https://datadryad.org) or [Zenodo](https://zenodo.org/).
+
+If you store your data in an external server, or if you inlcude data from external sources in your analysis for which you don't hold the rights to the data, it makes sense to document in your repository how the data can be integrated in your analysis. You can either do that by scripts or well written readmes. 
 
 
 
