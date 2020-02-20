@@ -11,6 +11,8 @@ This is repository provides a super fast introduction to code reproducibility an
 5. [Documenting your code and metadata](#documenting-your-code-and-metadata)
 6. [Licensing your code](#Licensing-your-code)
 7. [GitHub and scientific data storage](#github-and-scientific-data-storage)
+8. [Abouth this repository](#about-this-repository)
+9. [License](#license)
 
 ## What is code reproducibility? Why share your code?
 Reproducibility in science is a complex issue and goes to the the core of scientific philosophy. [Goodman et al. 2016](https://doi.org/10.1126/scitranslmed.aaf5027) recent(ish) discussion on the subject in *Science Translational Medicine* is an excellent starter, but you will find plenty of other good reading out there.
@@ -202,7 +204,7 @@ If you store your data in an external server, or if you include data from extern
 
 ## About this repository
 
-The content in this repository was originally developed for a lab meeting of Signe Normand's VegDyn research group at AU and the AU Department for Biochange's Research Seminar for Masters students.
+The content in this repository was developed for a lab meeting of Signe Normand's [VegDyn research group](https://twitter.com/VegDyn) at AU and the AU [Institute for Biochange's Research](https://bios.au.dk/om-instituttet/organisation/oekoinformatik-biodiversitet/projects/biochange/) weekly seminar for masters students.
 
 ## License
 
