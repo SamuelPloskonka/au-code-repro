@@ -119,7 +119,7 @@ Commit your change:
 
 Your changes are now commited (logged) by git.
 
-*Note: When you commit a change for the very first time you might get an error if your username and email address are not set. To set the email address and username, you have to do the following: open a terminal (on Windows look for a programme called git-bash, on UNIX systems just open any terminal). Copy the two commands from the error message line by line and replace the default email address and username accordingly.*
+*Note: When you commit a change for the very first time you might get an error if your global username and email address are not set. To set the email address and username you have to do the following: 1) open a terminal (on Windows look for a programme called git-bash, on UNIX systems just open any terminal) 2) copy the two commands from the error message line by line and replace the default email address and username accordingly.*
 
 ### Task 3: Sync (push/pull) to GitHub.
 
